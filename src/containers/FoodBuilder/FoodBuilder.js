@@ -1,10 +1,11 @@
 import React from "react";
 import Aux from "../../hoc/Aux";
+import Food from "../../components/Food/Food"
 
 const FoodBuilder = () => {
   return (
     <Aux>
-      <div>Food</div>
+      <Food/>
       <div>Food Controler</div>
     </Aux>
   );
